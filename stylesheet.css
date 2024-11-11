@@ -30,6 +30,11 @@ body {
   font-size:			230%;
 }
 
+nav {
+  background-color:  black;
+  color:     #f5f1e8;
+}
+
 #contact {
   background-color:		black;
   color:				#f5f1e8;
