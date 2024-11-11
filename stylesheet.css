@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+div#tableContainer {
+  display: 				table;
+}
+div#tableRow {
+  display: 				table-row;
+}
+
+* {
+  max-width: 			850px;
+  margin: 				auto;
+}
+
+body {
+  font-family: 			"Gabarito", Roboto, sans-serif; 			
+  background:			url(images/lines.jpg) repeat fixed;
+  background-size:		550px;
+  border-color: 		black;
+  border-width: 		4px;
+  border-style: 		solid;
+}
+
+.header {
+  text-align: 			center;				
+  background-color:		black;
+  color:				#f5f1e8;
+  height:           	90px;
+  width:				842px;
+  font-size:			230%;
+}
+
+#contact {
+  background-color:		black;
+  color:				#f5f1e8;
+  text-align:			center;
+}
+
+
+h2 {
+  font-size:			200%;
+}
+  
+section#quickinfo {
+  display:				table-cell;
+  font-size:			100%;
+  background-color:		#DAD4D5;
+  padding:				10px;
+  width:				35%;
+}
+
+#aboutme {
+  display:				table-cell;
+  background-color:		#f5f1e8;
+  padding:				10px;
+  
+}
+
+footer {
+  background-color: black;
+  color:            gray;
+  text-align:       center;
+  padding:          5px;
+  font-size:        50%;
+}
+
+span.title {
+  font-size:			120%;
+  font-style:			italic;
+}
+
+span.date {
+  font-size:			100%
+}
+
+span.ref {
+  font-weight:			bold;
+  font-style:			italic;
+}
+
+ul {
+  padding:				0px 0px 20px 20px;
+}
+
+a:link {
+  color:            	#687A97;
+  text-decoration:  	none;
+  border-bottom:    	none;
+}
+a:visited {
+  color:            	#787A7B;
+}
+abbr {
+  text-decoration: 		none;
+}
